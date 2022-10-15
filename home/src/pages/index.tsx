@@ -30,26 +30,20 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href='/blog'>
-            <a className={styles.card}>
-              <h2>Blog &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-          </Link>
+          <a href='/blog' className={styles.card}>
+            <h2>Blog &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
 
-          <Link href='/chat'>
-            <a className={styles.card}>
-              <h2>Chat &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
-          </Link>
+          <a href='/chat' className={styles.card}>
+            <h2>Chat &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
 
-          <Link href='/ec'>
-            <a className={styles.card}>
-              <h2>EC &rarr;</h2>
-              <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
-            </a>
-          </Link>
+          <a href='/ec' className={styles.card}>
+            <h2>EC &rarr;</h2>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+          </a>
         </div>
       </main>
 

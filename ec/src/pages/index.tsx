@@ -23,26 +23,20 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <Link href='/'>
-            <a className={styles.card}>
-              <h2>Root &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
-          </Link>
+          <a href='/' className={styles.card}>
+            <h2>Root &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>
 
-          <Link href='/blog'>
-            <a className={styles.card}>
-              <h2>Blog &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-          </Link>
+          <a href='/blog' className={styles.card}>
+            <h2>Blog &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
 
-          <Link href='/chat'>
-            <a className={styles.card}>
-              <h2>Chat &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
-          </Link>
+          <a href='/chat' className={styles.card}>
+            <h2>Chat &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
 
           <Link href='/about'>
             <a className={styles.card}>

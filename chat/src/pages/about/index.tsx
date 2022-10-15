@@ -23,33 +23,27 @@ const About: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
+          <a href='/' className={styles.card}>
+            <h2>Root &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>
+
+          <a href='/blog' className={styles.card}>
+            <h2>Blog &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+
           <Link href='/'>
-            <a className={styles.card}>
-              <h2>Root &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
-          </Link>
-
-          <Link href='/blog'>
-            <a className={styles.card}>
-              <h2>Blog &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-          </Link>
-
-          <Link href='/chat'>
             <a className={styles.card}>
               <h2>Chat &rarr;</h2>
               <p>Discover and deploy boilerplate example Next.js projects.</p>
             </a>
           </Link>
 
-          <Link href='/ec'>
-            <a className={styles.card}>
-              <h2>EC &rarr;</h2>
-              <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
-            </a>
-          </Link>
+          <a href='/ec' className={styles.card}>
+            <h2>EC &rarr;</h2>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+          </a>
         </div>
       </main>
 
