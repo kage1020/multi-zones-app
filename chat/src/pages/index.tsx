@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href='/blog/about'>
+          <Link href='/about'>
             <a className={styles.card}>
               <h2>Blog About &rarr;</h2>
               <p>Learn about Next.js in an interactive course with quizzes!</p>

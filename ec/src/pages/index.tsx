@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href='/ec/about'>
+          <Link href='/about'>
             <a className={styles.card}>
               <h2>EC About &rarr;</h2>
               <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
