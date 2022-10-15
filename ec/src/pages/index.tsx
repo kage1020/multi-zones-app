@@ -1,10 +1,10 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
-const About: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +15,7 @@ const About: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href='https://nextjs.org'>About Page!</a>
+          Welcome to <a href='https://nextjs.org'>EC Next.js!</a>
         </h1>
 
         <p className={styles.description}>
@@ -44,9 +44,9 @@ const About: NextPage = () => {
             </a>
           </Link>
 
-          <Link href='/ec'>
+          <Link href='/ec/about'>
             <a className={styles.card}>
-              <h2>EC &rarr;</h2>
+              <h2>EC About &rarr;</h2>
               <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
             </a>
           </Link>
@@ -67,6 +67,6 @@ const About: NextPage = () => {
       </footer>
     </div>
   );
-}
+};
 
-export default About
+export default Home;
