@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/blog',
+  basePath: '/chat',
 };
 
 module.exports = nextConfig
