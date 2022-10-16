@@ -1,6 +1,6 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "@next/next/no-html-link-for-pages": ["error", "blog/src", "chat/src", "ec/src"]
+    "@next/next/no-html-link-for-pages": ["error", "blog/src/pages", "chat/src/pages", "ec/src/pages"]
   }
 }
