@@ -1,8 +1,3 @@
 {
-  "extends": ["next/core-web-vitals"],
-  "settings": {
-    "next": {
-      "rootDir": "blog/"
-    }
-  }
+  "extends": ["../home/eslintrc.json", "next/core-web-vitals"]
 }
