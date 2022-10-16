@@ -1,8 +1,0 @@
-{
-  "extends": ["../home/eslintrc.json", "next/core-web-vitals"],
-  "settings": {
-    "next": {
-      "rootDir": "ec/"
-    }
-  }
-}
